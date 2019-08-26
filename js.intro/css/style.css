@@ -1,0 +1,43 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+body{
+  background-color: #75c984;
+
+}
+#content p{
+  color: blue;
+  border-bottom: 1px green solid;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  padding: 5px;
+  font-style: sans-serif;
+}
+
+#bmi{
+  display: flex;
+  margin: auto;
+  width: 60%;
+  background-color: orange;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:20px;
+}
+
+#bmi img{
+  width: 200px;
+}
+
+#billeder img{
+  width: 250px;
+}
+
+#billeder{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+}
